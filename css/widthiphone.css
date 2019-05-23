@@ -1,0 +1,42 @@
+html{
+	font-size: 1.5rem;
+}
+
+body,span{
+	font-size: 1em;
+}
+
+
+.widthpict,.widthpict2{
+	margin: 0 auto;
+	width: 1170px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+
+.boodtitle11{
+	flex-wrap: wrap;
+}
+
+.boodtitle12{
+	flex-wrap: wrap-reverse;
+}
+
+.imgbox{
+	max-width:100%;
+}
+
+
+
+
+.mian1-wenzi{
+	margin-top: 10px;
+}
+
+
+.main111,.main222,.main333,.main444,.main555{
+	height: 792px;
+	background-size: 100% 100%;
+}

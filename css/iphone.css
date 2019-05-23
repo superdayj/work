@@ -1,0 +1,87 @@
+
+html{
+	font-size: 1.5rem;
+}
+
+body,span{
+	font-size: 1em;
+}
+
+
+
+.effect-left {
+	float: left;
+	height: 136px;
+	margin-top: 100px;
+	background: url(../img/effect1.jpg)no-repeat;
+	background: none;
+}
+
+.effect-right {
+	float: right;
+	height: 136px;
+	margin-top: 127px;
+	background: url(../img/effect2.jpg)no-repeat;
+	background: none;
+}
+
+
+
+.title2 {
+	display: none;
+}
+
+
+.widthpict,.widthpict2{
+	width: 768px;
+}
+
+
+
+.main111,.main222,.main333,.main444,.main555{
+	height: 536px;
+}
+
+.menubox{
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+
+.comtent22{
+	display: none;
+	position: absolute;
+	list-style: none;	
+	height: 100px;
+	background: black;
+	margin-top: 20px;
+	margin-left: -50px;
+}
+.comtent22 li a{
+	color: #ffffff;
+}
+
+.menubox:hover .comtent22 {
+    display: block;
+}
+
+.explore{
+	width: 90%;
+	background-size: 100% 100%;
+}
+
+
+.boodnav{
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.fengeqiang{
+	width: 0;
+	overflow: hidden;
+}
+
+
+
+

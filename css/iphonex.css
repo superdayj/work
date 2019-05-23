@@ -1,0 +1,125 @@
+
+
+.widthpict,.widthpict2{
+	width: 375px;
+}
+
+
+
+.main111,.main222,.main333,.main444,.main555{
+	height: 280px;
+}
+
+.header {
+	position: relative;
+	margin: 0 auto;
+	background: #ffffff;
+	padding: 20px 20px;
+}
+
+.newitembox {
+	margin: 0;
+	display: block;
+}
+
+.comtent3{
+	display: none;
+}
+
+.newitem{
+	display: none;
+}
+
+.logo2 {
+	float: right;
+	margin-top: 45px;
+}
+
+.money{
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	color: #ffffff;
+	font-size: 25px;
+}
+
+.money2box,.money2box2{
+	margin-top: 100px;
+}
+
+.money2-1,.money2-2,.money2-1-1,.money2-2-2{
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+}
+
+
+.mianbox2{
+		margin-left: 0;
+		height: auto;
+}
+
+.instructions1{
+	float: none;
+	margin-top: 0;
+}
+
+.mian1-wenzi,.mian2-wenzi{
+	font-size: 30px;
+	color: #42394a;
+	margin: 0;
+}
+
+
+.instructions,.instructions2{
+	margin: 0;
+	float: left;
+	display: block;
+}
+
+.instructions3{
+	margin-left: -220px;
+	margin-top: 24px;
+}
+
+.instructions3-2{
+	margin-left: -150px;
+	margin-top: 24px;
+}
+
+.instructions-1,.instructions-two1{
+	margin: 0;
+}
+
+.btn-bg,.btn-bg2{
+	margin: 20px auto;
+}
+
+.instructions1 br,.instructions2 br,.instructions3 br,.instructions-1 br,.instructions3-2 br{
+	display: none;
+}
+
+.radius{
+	margin-right: 0;
+}
+
+.radius2{
+	width: 71px;
+	height: 57px;
+	font-size: 0.9em;
+}
+
+.radius-input{
+	height: 57px;
+	font-size: 1.2em;
+	
+}
+
+
+
+.boodtitle-4,.boodtitle-2{
+	flex-wrap: wrap;
+}
+
+
+

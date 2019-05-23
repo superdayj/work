@@ -1,0 +1,23 @@
+html{
+	font-size: 1.2rem;
+}
+
+
+
+.boodtitle-3-1,.boodtitle-2-1,.boodtitle-4-1{
+   background: transparent;
+}
+
+.boodtitle3{
+   justify-content: center;
+}
+
+.ve1,.ve3,.ve2,.crile{
+	width: 0;
+	overflow: hidden;
+}
+
+.comtent3{
+	display: none;
+}
+

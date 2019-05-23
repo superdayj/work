@@ -1,0 +1,15 @@
+.instructions-1 br,.instructions2 br,.instructions1 br{
+	display: none;
+}
+
+.instructions-1,.instructions2,.instructions1{
+	margin: 5px;
+}
+
+.licen{
+	margin-left: 5px;
+}
+
+.btn-bg{
+	margin-top: 10px;
+}
