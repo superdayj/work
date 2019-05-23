@@ -1,0 +1,191 @@
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, input, form, a, p, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+.clearfloat {
+  zoom: 1;
+}
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+
+.clearfix{overflow: auto;
+  zoom: 1;
+}
+
+.commom-box{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.common-container{
+	max-width: 940px;
+	padding-left:10px;
+	padding-right:10px;
+	margin: 0 auto;
+}
+
+.header{
+	background: #3e4b51;
+}
+
+
+.header .noleft{
+	margin-left: 0;
+}
+
+.header li{
+	display: inline-block;
+	margin: 11px 22px;
+	font-size: 0.8125rem;
+}
+
+.header ul a{
+	color: #9fa5a8;
+}
+
+.ppubic-title{
+	
+}
+
+.icon{
+	float: left;
+	line-height: 81px;
+}
+
+.icon2{
+	font-family: Times New Roman;
+	font-size: 22px;
+	color: #afbbc1;
+	display: inline-block;
+	margin: 0 4px;
+}
+
+.icon2 a{
+	color: #afbbc1;
+}
+
+.simlp-title{
+	background: blue;
+}
+
+.simlp-title ul{
+	margin: 24px 0 24px 60px;
+	display: inline-block;
+	list-style: none;
+}
+
+.simlp-title ul li a{
+	font-size: 13px;
+	color: #afbbc1;
+}
+	
+
+
+
+.border{
+	height: 23px;
+	margin: 0 27px;
+	display: inline-block;
+	border: 1px dashed #afbbc1;
+}
+
+/* .searchform {
+	display: inline-block;
+	margin: 22px auto;
+	float: right;
+}
+
+.radius {
+	margin-right: 200px;
+	overflow: hidden;
+
+}
+
+.radius-input {
+	float: right;
+	border-radius: 37px;
+	font-size: 1,5em;
+	color: #909da3;
+	height: 37px;
+	background: #f9f9f9;
+	border: 1px solid #d9d9d9;
+	text-indent: 2.5rem;
+	width: 100%;
+	background: url(../img/search.png)no-repeat;
+	background-position: 17px 10px;
+}
+
+.radius2,.radius3 {
+	width: 82px;
+	height: 32px;
+	background: #ed3d3d;
+	border-radius: 5px;
+	float: right;
+	color: #ffffff;
+	font-size: 0.875rem;
+	font-family: Myriad Pro;
+	border: none;
+}
+
+.radius2{
+	width: 66px;
+	margin-left: 20px;
+} */
+
+.searchform {
+	padding-top: 58px;
+	padding-right: 8%;
+	margin: 0 auto;
+}
+
+.radius {
+	margin-right: 200px;
+	overflow: hidden;
+
+}
+
+.radius-input {
+	border-radius: 15px 0px 0px 15px;
+	font-size: 1,5em;
+	color: #ffffff;
+	height: 66px;
+	background: #3f3944;
+	border: none;
+	text-indent: 2em;
+	width: 100%;
+}
+
+.radius2 {
+	width: 200px;
+	height: 66px;
+	background: #ed3d3d;
+	border-radius: 0px 15px 15px 0px;
+	float: right;
+	color: #ffffff;
+	font-size: 1.5em;
+	font-family: Myriad Pro;
+	border: none;
+}
+
+.footer{
+	height: 187px;
+	background: red;
+}
+
+
+
+
+
+
