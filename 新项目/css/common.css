@@ -157,12 +157,11 @@ img {
 
 
 .searchform {
-	padding-right: 8%;
 	padding-top: 24px;
 }
 
 .radius {
-	margin-right: 193px;
+	margin-right: 100px;
 	overflow: hidden;
 
 }
@@ -176,7 +175,7 @@ img {
 	background: #3f3944;
 	border: none;
 	text-indent: 2em;
-	width: 80%;
+	width: 100%;
 }
 
 .radius2 {
