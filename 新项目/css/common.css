@@ -55,8 +55,8 @@ img {
 	color: #9fa5a8;
 }
 
-.ppubic-header{
-	clear: both;
+.ppubic-title{
+	
 }
 
 .icon{
@@ -84,6 +84,7 @@ img {
 	margin: 24px 0 24px 60px;
 	display: inline-block;
 	list-style: none;
+	float: left;
 }
 
 .simlp-title ul li a{
@@ -95,8 +96,9 @@ img {
 
 
 .border{
-	height: 23px;
-	margin: 0 27px;
+	float: left;
+	height: 27px;
+	margin: 29px 27px 0;
 	display: inline-block;
 	border: 1px dashed #afbbc1;
 }
@@ -122,6 +124,7 @@ img {
 	background: #f9f9f9;
 	border: 1px solid #d9d9d9;
 	text-indent: 2.5rem;
+	width: 100%;
 	background: url(../img/search.png)no-repeat;
 	background-position: 17px 10px;
 }
@@ -141,61 +144,53 @@ img {
 .radius2{
 	width: 66px;
 	margin-left: 20px;
+} */
+.footer {
+	margin: 0 auto;
+	clear: both;
 }
- */
 
-.search{
-	display: inline-block;
-	width: 50%;
+.footerbox {
+	margin: 0 auto;
 }
+
 
 
 .searchform {
 	padding-right: 8%;
-	margin: 0 auto;
+	padding-top: 24px;
 }
 
 .radius {
-	margin-right: 200px;
+	margin-right: 193px;
 	overflow: hidden;
 
 }
 
 .radius-input {
-	border-radius: 15px 0px 0px 15px;
+	float: right;
+	border-radius: 20px ;
 	font-size: 1,5em;
 	color: #ffffff;
-	height: 66px;
+	height: 36px;
 	background: #3f3944;
 	border: none;
 	text-indent: 2em;
-	width: 100%;
+	width: 80%;
 }
 
 .radius2 {
-	width: 200px;
-	height: 66px;
+	width: 80px;
+	height: 31px;
 	background: #ed3d3d;
-	border-radius: 0px 15px 15px 0px;
+	border-radius: 5px;
 	float: right;
 	color: #ffffff;
-	font-size: 1.5em;
+	font-size: 0.8125rem;
 	font-family: Myriad Pro;
 	border: none;
 }
 
-
-
-
-
-.footer{
-	background: red;
-	height: 292px;
-}
-
-.menu{
-	width: 22%;
-	display: inline-block;
 
 
 
