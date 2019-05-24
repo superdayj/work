@@ -55,8 +55,8 @@ img {
 	color: #9fa5a8;
 }
 
-.ppubic-title{
-	
+.ppubic-header{
+	clear: both;
 }
 
 .icon{
@@ -122,7 +122,6 @@ img {
 	background: #f9f9f9;
 	border: 1px solid #d9d9d9;
 	text-indent: 2.5rem;
-	width: 100%;
 	background: url(../img/search.png)no-repeat;
 	background-position: 17px 10px;
 }
@@ -142,10 +141,16 @@ img {
 .radius2{
 	width: 66px;
 	margin-left: 20px;
-} */
+}
+ */
+
+.search{
+	display: inline-block;
+	width: 50%;
+}
+
 
 .searchform {
-	padding-top: 58px;
 	padding-right: 8%;
 	margin: 0 auto;
 }
@@ -179,11 +184,18 @@ img {
 	border: none;
 }
 
+
+
+
+
 .footer{
-	height: 187px;
 	background: red;
+	height: 292px;
 }
 
+.menu{
+	width: 22%;
+	display: inline-block;
 
 
 
