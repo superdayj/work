@@ -103,54 +103,12 @@ img {
 	border: 1px dashed #afbbc1;
 }
 
-/* .searchform {
-	display: inline-block;
-	margin: 22px auto;
-	float: right;
-}
-
-.radius {
-	margin-right: 200px;
-	overflow: hidden;
-
-}
-
-.radius-input {
-	float: right;
-	border-radius: 37px;
-	font-size: 1,5em;
-	color: #909da3;
-	height: 37px;
-	background: #f9f9f9;
-	border: 1px solid #d9d9d9;
-	text-indent: 2.5rem;
-	width: 100%;
-	background: url(../img/search.png)no-repeat;
-	background-position: 17px 10px;
-}
-
-.radius2,.radius3 {
-	width: 82px;
-	height: 32px;
-	background: #ed3d3d;
-	border-radius: 5px;
-	float: right;
-	color: #ffffff;
-	font-size: 0.875rem;
-	font-family: Myriad Pro;
-	border: none;
-}
-
-.radius2{
-	width: 66px;
-	margin-left: 20px;
-} */
-.footer {
+.header-menu {
 	margin: 0 auto;
 	clear: both;
 }
 
-.footerbox {
+.headerbox {
 	margin: 0 auto;
 }
 
@@ -170,10 +128,10 @@ img {
 	float: right;
 	border-radius: 20px ;
 	font-size: 1,5em;
-	color: #ffffff;
+	color: #909da3;
 	height: 36px;
-	background: #3f3944;
-	border: none;
+	background: #f9f9f9;
+	border: 1px solid #d9d9d9;
 	text-indent: 2em;
 	width: 100%;
 }
@@ -189,6 +147,96 @@ img {
 	font-family: Myriad Pro;
 	border: none;
 }
+
+.radius3 {
+	width: 60px;
+	height: 31px;
+	background: #ed3d3d;
+	border-radius: 5px;
+	float: right;
+	color: #ffffff;
+	font-size: 0.8125rem;
+	font-family: Myriad Pro;
+	border: none;
+}
+
+
+
+
+
+.footer-menu-icon,.footer-menu-icon2,.footer-menu-icon3{
+	width: 23.404%;
+	color: #7d8589;
+	font-size: 0.8125rem;
+	font-family: Times New Roman;
+	float: left;
+}
+
+
+.footer-menu-icon2,.footer-menu-icon3{
+	margin: 0 10px;
+}
+
+.footer-menu-icon{
+	margin-right: 10px;
+}
+
+.footer-menu-icon4{
+	width: 23.404%;
+	color: #7d8589;
+	font-size: 0.8125rem;
+	line-height: 1.2rem;
+	font-family: Times New Roman;
+	float: right;
+	margin-left: 10px;
+}
+
+.footer-icon4-l{
+	margin-top: 20px;
+}
+
+
+
+
+.footer-icon1{
+	margin: 23px auto;
+	line-height: 1.2rem;
+}
+
+
+
+.footer-icon2{
+	margin: 22px auto 22px;
+	line-height: 1.2rem;
+}
+
+.input-email{
+	width: 100%;
+	height: 35px;
+	font-size: 0.8125rem;
+	font-family: Times New Roman;
+	color: #c1c8cb;
+	border: 1px solid #d9d9d9;
+	background: #f9f9f9;
+	text-indent: 1em;
+}
+
+.submit-email{
+	margin: 10px auto;
+	width: 91px;
+	height: 36px;
+	text-align: center;
+	font-size: 0.8125rem;
+	font-family: Times New Roman;
+	border-radius: 5px;
+	border: 1px solid #3d7f19;
+	list-style: none;
+	color: #ffffff;
+	background: #52a922;
+}
+
+
+
 
 
 
