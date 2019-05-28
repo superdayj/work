@@ -194,6 +194,10 @@ img {
 	margin-top: 20px;
 }
 
+.footer-menu{
+	margin: 41px auto 66px;
+}
+
 
 
 
@@ -233,6 +237,26 @@ img {
 	color: #ffffff;
 	background: #52a922;
 }
+
+.ppubic-footer-star{
+	height: 100px;
+	background: #f9f9f9;
+	border: 1px solid #d4d4d4;
+}
+
+
+.footer-end{
+	background: #f9f9f9;
+	border: 1px solid #d4d4d4;
+}
+
+.footer-end-menu{
+	font-size: 0.8125rem;
+	font-family: Times New Roman;
+	line-height: 67px;
+}
+
+
 
 
 
