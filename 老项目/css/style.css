@@ -113,8 +113,7 @@ input:checked + .slide-container .nav label {
     text-align: center;
 }
 
-.nav-dots .nav-dot {
-    
+.nav-dots .nav-dot {   
 	bottom: 0;
     width: 11px;
     height: 11px;
