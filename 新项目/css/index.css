@@ -1,0 +1,63 @@
+.ppubic-title{
+	height: 362px;
+	background: #3e4b51;
+	position: relative;
+}
+
+.slider{
+	width: 460px;
+}
+
+.slider-txt{
+	padding-top: 40px;
+	font-size: 45px;
+	font-family: Times New Roman;
+	color: #ffffff;
+	line-height: 3rem;
+}
+
+.slider-txt2{
+	padding: 27px 0;
+	font-size: 1rem;
+	font-family: Times New Roman;
+	color: #ffffff;
+	line-height: 1.5rem;
+}
+
+.slider-submit{
+	width: 140px;
+	height: 40px;
+	background: #323c41;
+	text-align: center;
+	line-height: 40px;
+}
+
+.slider-submit a{
+	color: #848a8d;
+}
+
+.nav-dots {
+    width: 100%;
+    bottom: 9px;
+	left: 0;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+}
+
+.nav-dots .nav-dot {  
+	bottom: 0;
+    width: 11px;
+    height: 11px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 100%;
+    display: inline-block;
+    background: #3e4b51;
+	border: 1px solid #2b3439;
+}
+
+.nav-dots .nav-dot:hover {
+    cursor: pointer;
+    background: #2b3439;
+}
