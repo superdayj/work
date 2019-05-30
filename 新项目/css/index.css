@@ -108,6 +108,8 @@
 }
 
 
+
+
 .title-header-l{
 	float: left;
 	font-size: 1.75rem;
@@ -179,25 +181,147 @@
 }
 
 .popular{
-	height: 553px;
 	background: #f0f0f0;
 	border: 1px solid #cccccc;
 }
 
+
+.popular-headerbox{
+	margin: 20px auto;
+}
+
 .popular .popular-header .popular-header-l{
 	float: left;
+	font-size: 1.75rem;
+	font-family: Times New Roman;
+	font-weight: bold;
 }
 
 .popular .popular-header .popular-header-r{
 	float: right;
+	font-size: 0.875rem;
+	font-family: Times New Roman;
+	font-weight: bold;
+	line-height: 28px;
 }
 
 .popular-items{
-	width: 25%;
-	height: 432px;
-	border: 1px solid blue;
+	width: 23.404%;
+	border: 1px solid #cccccc;
 	display: inline-block;
-	padding: 0 -3px;
+	vertical-align:middle;
+	background: #ffffff;
+	margin-right: 10px;
+	margin-bottom: 50px;
+}
+
+.popular-items-picterbox{
+	width: 92.272%;
+	height: 148px;
+	border: 1px solid #cccccc;
+	margin:  8px auto 0;
+}
+
+.popular-items-picter{
+	width: 93.103%;
+	height: 134px;
+	line-height: 148px;
+	background: red;
+	margin: 7px auto;
+}
+
+.popular-nav{
+	font-weight: bold;
+	font-family: Times New Roman;
+	font-size: 0.9375rem;
+	color: #3e4b51;
+	margin: 16px 10px;
+}
+
+.popular-nav span{
+	color: #b2b7b9;
+	font-size: 0.8125rem;
+}
+
+.popular-nav p{
+	margin: 16px auto;
+	font-size: 0.8125rem;
+	line-height: 1.25rem;
 }
 
 
+
+
+
+.popular-end{
+	background: #f0f0f0;
+	border-top: 1px solid #cccccc;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.popular-endbox{
+	text-align: center;
+}
+
+.popular-endbox div{
+	display: inline-block;
+	color: #a9aeb0;
+	font-family: Times New Roman;
+	font-size: 0.75rem;
+	margin: 18px auto;
+}
+
+.popular-end span{
+	color: #3e4b51;
+	font-family: Times New Roman;
+	font-weight: bold;
+	font-size: 0.875rem;
+}
+
+
+
+.popular-end img{
+	width: 100%;
+	height: auto;
+	margin: 18px auto 0;
+}
+
+
+.text-widget{
+	height: 120px;
+	background: blue;
+}
+
+.text-widget .text-widget-l{
+	float: left;
+}
+
+.text-widget .text-widget-l span{
+	font-family: Times New Roman;
+	font-size: 1.125rem;
+	color: #3e4b51;
+	font-weight: bold;
+}
+
+.text-widget .text-widget-l p{
+	font-family: Times New Roman;
+	font-size: 0.8125rem;
+	color: #8b9397;
+}
+
+.text-widget .text-widget-r{
+	float: right;
+}
+
+.text-widget .text-widget-r .text-widget-r-bin{
+	width: 140px;
+	height: 53px;
+	background: #eb5340;
+	font-family: Times New Roman;
+	font-size: 0.875rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 53px;
+	border-radius: 5px;
+}
