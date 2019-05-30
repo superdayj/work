@@ -62,8 +62,11 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.content{
+	margin: 46px auto;
+}
+
 .featured{
-	
 }
 
 .featured .featured-l{
@@ -76,7 +79,7 @@
 .featured .featured-l ul{
 	list-style: none;
 	margin: 30px auto 26px;
-	line-height: 22px;
+	line-height: 26px;
 }
 
 .featured .title-nav{
@@ -102,14 +105,15 @@
 .featured .featured-r{
 	float: right;
 	width: 66%;
-	background: yellow;
 }
 
 
 .title-header-l{
 	float: left;
 	font-size: 1.75rem;
+	font-weight: bold;
 	font-family: Times New Roman;
+	color: #576267;
 }
 
 .title-header-r{
@@ -120,6 +124,7 @@
 }
 
 .featured-r-body-star{
+	margin-top: 21px;
 	padding: 26px 28px;
 	border: 1px solid #d9d9d9;
 }
@@ -128,20 +133,18 @@
 
 .featured-r-body-l{
 	float: left;
-	width: 303px;
+	width: 49.193%;
 	height: 220px;
 	border: 1px solid #d9d9d9;
 }
 
 .featured-r-body-r{
 	float: right;
-	width: 243px;
-	height: 220px;
+	width: 39.193%;
 	font-family: Times New Roman;
 }
 
 .featured-r-body-end{
-	height: 96px;
 	background: #f0f0f0;
 	border: 1px solid #d9d9d9;
 }
@@ -152,16 +155,49 @@
 	background: url(../img/indicator.png)no-repeat;
 	text-align: center;
 	line-height: 77px;
-	float: left;
 	margin: 10px 28px;
+	display: inline-block;
 }
 
 
-.featured-r-body-end2 ul{
+.featured-r-body-end2{
+	margin-left: 53px;
+	font-family: Times New Roman;
+	font-size: 0.8125rem;
+	color: #babec0;
+}
+
+.featured-r-body-end2,.featured-r-body-end2 div{
+	display:inline-block;
+}
+
+.border2{	
+	height: 27px;
+	margin: 29px 27px 0;
+	display: inline-block;
+	border: 1px dashed #afbbc1;
+}
+
+.popular{
+	height: 553px;
+	background: #f0f0f0;
+	border: 1px solid #cccccc;
+}
+
+.popular .popular-header .popular-header-l{
 	float: left;
-	list-style: none;
-	margin-left: 51px;
 }
 
+.popular .popular-header .popular-header-r{
+	float: right;
+}
+
+.popular-items{
+	width: 25%;
+	height: 432px;
+	border: 1px solid blue;
+	display: inline-block;
+	padding: 0 -3px;
+}
 
 

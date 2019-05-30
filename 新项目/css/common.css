@@ -79,10 +79,9 @@ img {
 }
 
 .simlp-title ul{
-	margin: 24px 0 24px 60px;
-	display: inline-block;
-	list-style: none;
 	float: left;
+	margin: 24px 0 24px 60px;
+	list-style: none;
 }
 
 .simlp-title ul li a{
@@ -93,11 +92,10 @@ img {
 
 
 
-.border{
-	float: left;
+.border{	
 	height: 27px;
 	margin: 29px 27px 0;
-	display: inline-block;
+	float: left;
 	border: 1px dashed #afbbc1;
 }
 
