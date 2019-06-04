@@ -294,6 +294,8 @@
 
 .text-widget .text-widget-l{
 	float: left;
+	width: 60%;
+
 }
 
 .text-widget .text-widget-l span{
@@ -309,7 +311,6 @@
 	font-size: 0.8125rem;
 	font-weight: bold;
 	color: #8b9397;
-	width: 600px;
 }
 
 .text-widget .text-widget-r{
