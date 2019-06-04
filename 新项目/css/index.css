@@ -211,7 +211,7 @@
 	display: inline-block;
 	vertical-align:middle;
 	background: #ffffff;
-	margin-right: 10px;
+	margin-right: 1%;
 	margin-bottom: 50px;
 }
 
@@ -289,8 +289,7 @@
 
 
 .text-widget{
-	height: 120px;
-	background: blue;
+	margin: 28px auto;
 }
 
 .text-widget .text-widget-l{
@@ -305,9 +304,12 @@
 }
 
 .text-widget .text-widget-l p{
+	margin-top: 10px;
 	font-family: Times New Roman;
 	font-size: 0.8125rem;
+	font-weight: bold;
 	color: #8b9397;
+	width: 600px;
 }
 
 .text-widget .text-widget-r{
@@ -324,4 +326,101 @@
 	text-align: center;
 	line-height: 53px;
 	border-radius: 5px;
+}
+
+
+
+.facebook-widfetbox{
+	padding: 48px 0;
+	background: #f9f9f9;
+	border: 1px solid #cccccc;
+}
+
+
+.facebook-widfet{
+	height: 360px;
+	background: blue;
+	position: relative;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.facebook-widfet .facebook-widfet-title{
+	width: 75%;
+	height: 120px;
+	position: absolute; 
+	top: 0;
+	bottom: 0;
+  left: 0; 
+  right: 0; 
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto; 
+  margin-right: auto; 
+  
+  background: yellow;
+}
+
+.thumbs-top{
+	position: absolute;
+	width: 12.5%;
+	height: 33.888%;
+	background: red;
+	top: 0;
+}
+
+
+.widfet1{ left: 0;}
+.widfet2{ left: 12.5%;}
+.widfet3{ left: 25%;}
+.widfet4{ left: 37.5%;}
+.widfet5{ left: 50%;}
+.widfet6{ left: 62.5%;}
+.widfet7{ left: 75%;}
+.widfet8{ left: 87.5%;}
+
+.thumbs-l,.thumbs-r{
+	position: absolute;
+	width: 12.5%;
+	height: 33.888%;
+	background: red;
+	top: 122px;
+}
+
+.widfet9{ left: 0;}
+.widfet10{ right: 0;}
+
+
+.thumbs-bottom{
+	position: absolute;
+	width: 12.5%;
+	height: 33.888%;
+	background: red;
+	bottom: 0;
+}
+
+
+
+.facebook-widfet .facebook-widfet-title p{
+	font-family: Times New Roman;
+	font-size: 1.75rem;
+	float: left;
+	width: 53%;
+	margin-top: 36px;
+	margin-left: 32px;
+}
+
+.facebook-widfet .facebook-widfet-title .bin{
+	float: right;
+	width: 31.666%;
+	height: 47px;
+	font-family: Times New Roman;
+	font-size: 0.875rem;
+	color: #ffffff;
+	background: #4274b8;
+	text-align: center;
+	line-height: 47px;
+	border-radius: 5px;
+	margin-top: 36px;
+	margin-right: 32px;
 }
