@@ -160,12 +160,15 @@ img {
 
 
 
+
+
 .footer-menu-icon,.footer-menu-icon2,.footer-menu-icon3{
 	width: 23.404%;
 	color: #7d8589;
 	font-size: 0.8125rem;
 	font-family: Times New Roman;
 	float: left;
+	
 }
 
 
@@ -232,6 +235,10 @@ img {
 	list-style: none;
 	color: #ffffff;
 	background: #52a922;
+}
+
+.ppubic-footer{
+	clear: both;
 }
 
 .ppubic-footer-star{
