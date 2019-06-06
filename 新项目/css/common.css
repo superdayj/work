@@ -36,6 +36,11 @@ img {
 	margin: 0 auto;
 }
 
+
+.ppubic-header{
+	border-bottom: 1px solid #cccccc;
+}
+
 .header{
 	background: #3e4b51;
 }

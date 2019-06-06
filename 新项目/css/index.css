@@ -366,6 +366,7 @@
 	width: 12.5%;
 	height: 33.888%;
 	background: red;
+	border: 1px solid #f9f9f9;
 	top: 0;
 }
 
@@ -385,6 +386,7 @@
 	height: 33.888%;
 	background: red;
 	top: 122px;
+	border: 1px solid #f9f9f9;
 }
 
 .widfet9{ left: 0;}
@@ -397,6 +399,7 @@
 	height: 33.888%;
 	background: red;
 	bottom: 0;
+	border: 1px solid #f9f9f9;
 }
 
 
