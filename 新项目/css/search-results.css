@@ -195,6 +195,7 @@
 }
 
 .title-header-end{
+	clear: both;
 	margin: 30px auto 35px;
 	width: 27.142%;
 	background: #ea523e;
