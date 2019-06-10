@@ -323,16 +323,21 @@
 	border: 1px solid #bcbcbc;
 }
 
-.pledge{
+#pledge{
 	display: block;
 	font-weight: bold;
 	font-family: Times New Roman;
 	font-size: 0.875rem;
-	color: #626c71;
 	border: 1px solid #cccccc;
 	text-align: center;
 	line-height: 50px;
-	
+}
+
+
+
+.pledge-color{
+	color: #ffffff;
+	background: black;
 }
 
 
@@ -343,6 +348,8 @@
 	border: 1px solid #cccccc;
 	
 }
+
+
 
 
 
