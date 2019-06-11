@@ -266,7 +266,46 @@ img {
 
 
 
+.text-widget{
+	margin: 28px auto;
+}
 
+.text-widget .text-widget-l{
+	float: left;
+	width: 60%;
+
+}
+
+.text-widget .text-widget-l span{
+	font-family: Times New Roman;
+	font-size: 1.125rem;
+	color: #3e4b51;
+	font-weight: bold;
+}
+
+.text-widget .text-widget-l p{
+	margin-top: 10px;
+	font-family: Times New Roman;
+	font-size: 0.8125rem;
+	font-weight: bold;
+	color: #8b9397;
+}
+
+.text-widget .text-widget-r{
+	float: right;
+}
+
+.text-widget .text-widget-r .text-widget-r-bin{
+	width: 140px;
+	height: 53px;
+	background: #eb5340;
+	font-family: Times New Roman;
+	font-size: 0.875rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 53px;
+	border-radius: 5px;
+}
 
 
 
