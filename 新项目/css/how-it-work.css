@@ -18,7 +18,7 @@
 
 .star .main{
 	float: left;
-	width: 290px;
+	width: 33%;
 	
 }
 
@@ -35,7 +35,7 @@
 
 .star .main .main-bin{
 	margin-top: 32px;
-	width: 292px;
+	width: 100%;
 	padding: 21px 0;
 	background: #ea513d;
 	text-align: center;
@@ -63,16 +63,54 @@
 
 .star .imgbox{
 	float: right;
-	width: 562px;
+	width: 58%;
 	height: 424px;
 	border: 1px solid #d9d9d9;
 	
 }
 
 .star .imgbox .img{
-	width: 546px;
-	height: 408px;
+	width: 98%;
+	height: 98%;
 	background: #f0f0f0;
-	margin: 8px auto;
+	margin: 4px auto;
+}
+
+.txt{
+	margin-top: 29px;
+	padding-bottom: 79px;
+	font-family: Times New Roman;
+	font-size: 1.125rem;
+}
+
+.txt p{
+	font-size: 0.8125rem;
+	margin-top: 18px;
+}
+
+
+.txt .txt1{
+}
+
+.txt1-1,.txt1-2{
+	width: 50%;
+}
+
+.txt .txt1 .txt1-1{
+	float: left;
+}
+
+.txt .txt1 .txt1-2{
+	float: right;
+}
+
+.txt2{
+	clear: both;
+}
+
+.txt2 .txt2-1{
+	width: 33.333%;
+	float: left;
+	margin-top: 30px;
 }
 
