@@ -130,6 +130,7 @@
 .info-txtbox{
 	background: #ffffff;
 	padding: 0 17.5px;
+	text-align: center;
 }
 
 .inof-txt{	
@@ -138,26 +139,34 @@
 	font-weight: bold;
 }
 
-
-.info-txt span{
-	font-family: Times New Roman;
-	font-size: 0.8125rem;
-	color: #b2b7b9;
+.name-input,.Time-zone-input,.Biography-input,.Profile-URL-input{
+	background: #f9f9f9;
+	border: 1px solid #d9d9d9;
+	text-indent: 1em;
 }
 
-.info-txtbox p{
-	font-family: Times New Roman;
-	font-size: 0.8125rem;
-	margin-top: 26px;
-	color: #7d8589;
+.name-input{
+	width: 35%;
+	height: 32px;
 }
 
-.info-p{
-	width: 553px;
-	height: 408px;
-	margin: 5px auto;
-	background: #f0f0f0;
+.Time-zone-input{
+	width: 61%;
+	height: 32px;
 }
+
+.Biography-input{
+	width: 61%;
+	height: 194px;
+	vertical-align: top;
+}
+
+.Profile-URL-input{
+	width: 35%;
+	height: 32px;
+}
+
+
 
 .info-txt-picter{
 	width: 90.08%;
