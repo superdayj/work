@@ -130,57 +130,86 @@
 .info-txtbox{
 	background: #ffffff;
 	padding: 0 17.5px;
-	text-align: center;
 }
 
-.inof-txt{	
+.info-txt{
+	width: 460px;
+	margin: 0 auto;
 	font-family: Times New Roman;
-	font-size: 1.125rem;
-	font-weight: bold;
 }
 
-.name-input,.Time-zone-input,.Biography-input,.Profile-URL-input{
+
+.input-i{	
+	font-size: 0.8125rem;
+	margin-left: 54px;
+	font-family: Times New Roman;
+}
+
+.name-input,.Time-zone-input,.Biography-input,.Profile-URL-input,.Websites-input{
 	background: #f9f9f9;
 	border: 1px solid #d9d9d9;
 	text-indent: 1em;
+	height: 32px;
 }
 
+.Location-submit{
+	width: 131px;
+	height: 37px;
+	border: 1px solid #c2c2c2;
+	border-radius: 5px;
+	background: #f7f7f7;
+	margin-left: 6px;
+	font-family: Times New Roman;
+	font-size: 0.8125rem;
+}
+
+
 .name-input{
-	width: 35%;
-	height: 32px;
+	width: 49%;
+	
 }
 
 .Time-zone-input{
-	width: 61%;
-	height: 32px;
+	width: 78.5%;
 }
 
 .Biography-input{
-	width: 61%;
+	width: 78.5%;
 	height: 194px;
 	vertical-align: top;
 }
 
 .Profile-URL-input{
-	width: 35%;
-	height: 32px;
+	width: 49%;
+}
+
+.Websites-input{
+	width: 66%;
+}
+
+.Websites-submit{
+	width: 58px;
+	height: 37px;
+	border: 1px solid #c2c2c2;
+	border-radius: 5px;
+	background: #f7f7f7;
+	margin-left: 6px;
+	font-family: Times New Roman;
+	font-size: 0.8125rem;
 }
 
 
-
-.info-txt-picter{
-	width: 90.08%;
-	height: 420px;
-	border: 1px solid #d9d9d9;
-	margin: 25px auto;
+.settings-submit{
+	width: 128px;
+	height: 37px;
+	border: 1px solid #c2c2c2;
+	border-radius: 5px;
+	background: #ea4f3c;
+	color: #ffffff;
+	font-family: Times New Roman;
+	font-size: 0.8125rem;
 }
 
-.info-txt-picter .info-txt-picterbox{
-	width: 98%;
-	height: 408px;
-	background: #f0f0f0;
-	margin: 6px auto;
-}
 
 .share-buttons{
 	margin-top: 71px;
