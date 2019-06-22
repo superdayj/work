@@ -5,70 +5,56 @@
 }
 
 
-.title-header .title-header-l{
+.title-header-l{
 	float: left;
 	width: 66.170%;
-	border: 1px solid #d4d4d4;
 	margin-bottom: 32px;
 }
 
+.title-header-l h2{
+	margin-bottom: 24px;
+}
 
-
-
-.title-header-l-h p{
+.title-header-l span{
 	font-family: Times New Roman;
-	font-size: 1.625rem;
+	font-size: 1rem;
 	font-weight: bold;
-	color: #576267;
-	margin-bottom: 29px;
 }
 
-.title-header-l-h span{
+.title-header-l p{
+	margin: 20px auto 25px;
 	font-family: Times New Roman;
-	font-size: 0.875rem;
-	color: #9ba2a5;
+	font-size: 0.8125rem;
 }
 
-.title-header .title-header-l .video{
-	width: 100%;
-	height: 485px;
+.title-header-h{
+	border: 1px solid #cccccc;
 	background: #ffffff;
-	float: left;
+	margin: 34px auto 60px;
 }
 
-.video .video-box{
-	width: 90.08%;
-	height: 420px;
-	border: 1px solid #d9d9d9;
-	margin: 33px auto;
+
+.title-header-h li{
+	font-family: Times New Roman;
+	display: inline-block;
+	line-height: 47px;
+	margin: 0 42px;
 }
 
-.video .video-box .video-bin{
-	width: 98%;
-	height: 408px;
-	margin: 5px auto;
-	background: #f0f0f0;
-	position: relative;
+.title-header-h li a{
+	color: #3e4b51;
 }
 
-.bin{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0; 
-	right: 0; 
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-left: auto; 
-	margin-right: auto; 
-}
+
+
+
+
 
 
 
 .title-header .title-header-r{
 	float: right;
 	width: 32%;
-	margin-top: -87px;
 }
 
 .featured-r-body-end{
@@ -116,101 +102,46 @@
 	margin-top: 26px;
 }
 
-.title-header-l ul li{
-	display: inline-block;
-	font-family: Times New Roman; 
-	font-size: 0.8125rem;
-	margin: 16px 18px;
-}
 
-.title-header-l ul li a{
-	color: #5c666b;
-}
+
 
 .info-txtbox{
 	background: #ffffff;
+	padding: 0 17.5px;
+	border: 1px solid #d4d4d4;
+}
+
+
+
+
+
+
+.info-txt-1{
+	width: 28.064%;
+	font-family: Times New Roman;
+	font-size: 1.125rem;
+	display: inline-block;
+	margin:  0 13px;
+}
 	
-}
-
-.info-txt{
-	width: 78.5%;
-	margin: 0 auto;
-	font-family: Times New Roman;
-	padding-top: 43px;
-	
-}
-
-
-.input-i{	
+.info-txt-1 p{
 	font-size: 0.8125rem;
-	margin-left: 54px;
-	font-family: Times New Roman;
-}
-
-.name-input,.Time-zone-input,.Biography-input,.Profile-URL-input,.Websites-input{
-	background: #f9f9f9;
-	border: 1px solid #d9d9d9;
-	text-indent: 1em;
-	height: 32px;
-}
-
-.Location-submit{
-	width: 131px;
-	height: 37px;
-	border: 1px solid #c2c2c2;
-	border-radius: 5px;
-	background: #f7f7f7;
-	margin-left: 6px;
-	font-family: Times New Roman;
-	font-size: 0.8125rem;
+	word-spacing: -2px;
+	margin-top: 14px;
+	margin-bottom: 16px;
 }
 
 
-.name-input{
-	width: 49%;
-	
-}
-
-.Time-zone-input{
-	width: 78.5%;
-}
-
-.Biography-input{
-	width: 78.5%;
-	height: 194px;
-	vertical-align: top;
-}
-
-.Profile-URL-input{
-	width: 49%;
-}
-
-.Websites-input{
-	width: 66%;
-}
-
-.Websites-submit{
-	width: 58px;
-	height: 37px;
-	border: 1px solid #c2c2c2;
-	border-radius: 5px;
-	background: #f7f7f7;
-	margin-left: 6px;
-	font-family: Times New Roman;
-	font-size: 0.8125rem;
-}
-
-
-.settings-submit{
-	margin: 75px 0 28px;
-	width: 128px;
-	height: 37px;
-	border: 1px solid #c2c2c2;
-	border-radius: 5px;
-	background: #ea4f3c;
+.into-bin{
+	width: 75%;
+	line-height: 31px;
+	background: #eb533f;
 	color: #ffffff;
 	font-family: Times New Roman;
 	font-size: 0.8125rem;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 27px;
 }
 
 
