@@ -1,0 +1,41 @@
+{{include '../public/header'}}
+{{include '../public/nav'}}
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+  <h1 class="page-header">用户管理</h1>
+  <h2 class="sub-header">
+       <a href="/admin/users/add" class="btn btn-primary " role="button">添加</a>
+  </h2>
+  <div class="table-responsive">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>姓名</th>
+          <th>年龄</th>
+          <th>性别</th>
+          <th>状态</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{each list}}
+        <tr>
+          <td>{{ $index }}</td>
+          <td>{{ $value.username }}</td>
+          <td>{{ $value.age }}</td>
+          <td>{{ $value.sex }}</td>
+          <td>{{ $value.status }}</td>
+          <td>
+            <a href="/admin/users/edit?id={{@ $value._id}}">编辑</a>&nbsp;
+            <a href="/admin/users/delete?id={{@ $value._id}}">删除</a>
+          </td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+    
+  </div> 
+  {{include '../public/pagenav',{page,size,totle,hasMore,num} }}
+</div>
+
+{{include '../public/footer'}}

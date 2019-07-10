@@ -309,7 +309,7 @@
 
 .facebook-widfet .facebook-widfet-title{
 	width: 75%;
-	height: 120px;
+	height: 32%;
 	position: absolute; 
 	top: 0;
 	bottom: 0;
@@ -371,13 +371,13 @@
 	float: left;
 	width: 53%;
 	margin-top: 36px;
+	margin-bottom: 36px;
 	margin-left: 32px;
 }
 
 .facebook-widfet .facebook-widfet-title .bin{
 	float: right;
 	width: 31.666%;
-	height: 47px;
 	font-family: Times New Roman;
 	font-size: 0.875rem;
 	color: #ffffff;
