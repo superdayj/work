@@ -3,4 +3,13 @@
 	background: #f0f0f0;
 }
 
+.fakeimg{
+	width: 50%;
+	height: auto;
+}
+
+.col-sm-8{
+	border: 1px solid #cccccc;
+	background: #ffffff;
+}
     
