@@ -5,6 +5,7 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #555;
+  background: blue;
 }
 
 h1, .h1,
@@ -164,3 +165,8 @@ h6, .h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+
+
+
+

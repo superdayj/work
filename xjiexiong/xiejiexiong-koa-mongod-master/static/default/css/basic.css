@@ -1,10 +1,21 @@
 body{
-    background: #ffffff;
+    background: url(../images/星空.jpg)no-repeat;
+	background-size: 100% 100%;
+	color: #ffffff;
+}
+
+a{
+	color: #ffffff;
 }
 
 
-.diver{
-	
+.muv-box{
+	background: #ffffff;
+}
+
+.muv-box li{
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .tab-pane{
